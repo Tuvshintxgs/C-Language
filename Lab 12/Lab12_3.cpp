@@ -21,7 +21,7 @@ int main() {
 		max=*p;
 		p++;
 	}
-	printf("\n%d", max);
-	
+	printf("\n%d\n", max);
+	printf("%u %p", &max, &max);
 	return 0;
 }
