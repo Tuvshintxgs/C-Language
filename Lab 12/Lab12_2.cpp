@@ -14,8 +14,10 @@ int main()
 {
     int num1,num2;
 	scanf("%d %d",&num1,&num2);
-    printf("vvvvvvvvvvvvvvvvvvvvvvvv\n");
-    printf("%d %d\n",num1,num2);
+	
+    printf("-----------------------------------------\n");
+    
+	printf("%d %d\n",num1,num2);
     swap(&num1,&num2);
     printf("%d %d\n",num1,num2);
 
